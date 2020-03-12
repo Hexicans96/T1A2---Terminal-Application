@@ -1,16 +1,31 @@
 # Micah Rus's terminal app
 
+## Requirements
+
+* Ruby installed
+* Access to terminal
+
 ## Gems
 
 * I will be using robucop through this assessment
 
+## Testing
 
+### I created a table to show the testing that I did.
+
+| Feature        | Test case summary                                                     | Test Data | Expected result                                                                                                             | Actual result | Status | Comments |
+|----------------|-----------------------------------------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------|---------------|--------|----------|
+| Add contact    | Will attempt to use this feature, and  all of its options             |           | Selecting this option Should take the user to a menu where they can input the desired information                           | As expected   | Pass   | N/A      |
+| Contact Search | Will attempt to use this feature to  locate information               |           | Selecting this option should Prompt the user for input Which once entered will return results with any matching information | As expected   | Pass   | N/A      |
+| Delete contact | Will attempt to use feature to remove a contact from the address book |           | Will remove a contact from the address Book                                                                                 | As expected   | Pass   | N/A      |
 
 ## Version control
 
-For version control I was using github for this particular project. 
+For version control I was using github for this particular project. I initially had it in the suppository below and was committing there, but then moved the files and decided to change repository's to the second one.
 
-The link is <https://github.com/Hexicans96/terminal_app>
+The first link is <https://github.com/Hexicans96/terminal_app>
+
+The second(current) link is <https://github.com/Hexicans96/T1A2---Terminal-Application>
 
 ## Link to trello
 
@@ -62,3 +77,12 @@ This will print the entire address book to terminal, the changes I make will als
 * The way to use this app will be primarily through user input via the use of the terminal. It will prompt users for input many times throughout the program and these inputs will allow the user to create new information, change existing information, delete information and view all current information. 
 
 * When the application first loads it will load and print the entry point to the screen, which in this case is a menu with branches to all the features of my app. It will then prompt the user for inputs, and based off this input will allow the user to create, read, update or destroy information. After the user has completed their action they will be transported back to the initial menu. The exit point is also located in this initial menu. 
+
+
+## 	User interaction and experience
+
+* The user will interact with the application simply by inputting text into the command prompt.The user will be prompted on which information is required to have the desired affect. It is a very simple app to use, and I have addded information in the execution of the app that should increase its accessibility.
+
+* The user will interact / use each feature by inputting the information required when prompted to do so.
+
+* Errors will be displayed in a box, telling them what went wrong, it will then direct them back to the entry point.
