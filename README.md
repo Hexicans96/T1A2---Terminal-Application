@@ -1,23 +1,47 @@
+
 # Micah Rus's terminal app
 
 ## Requirements
 
 * Ruby installed
 * Access to terminal
+* A computer
+* colorize gem
+
+## How to execute
+
+1. Unzip the MicahRus_T1A2 folder
+
+2. Use the terminal to change into the directory where you unzipped the file.
+
+3. Use the terminal to change into the src directory.
+
+4. Install colorize, by typing $gem install colorize
+
+5. Install artii, by typing $gem install artii
+
+6. Type this into the terminal $ruby index.rb
+
+7. Enjoy :)
 
 ## Gems
 
-* I will be using robucop through this assessment
+* I will be using robucop throughout this assessment
+
+* Colorize
+
+* Artii 
+
+## link to power point online
+
+<https://docs.google.com/presentation/d/1cdQgYa0WxvRmOi0l3JkqY3IEATqpmTDgRYoRyjrBTiA/edit#slide=id.g8165fe97c4_0_6>
+
 
 ## Testing
 
 ### I created a table to show the testing that I did.
 
-| Feature        | Test case summary                                                     | Test Data | Expected result                                                                                                             | Actual result | Status | Comments |
-|----------------|-----------------------------------------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------|---------------|--------|----------|
-| Add contact    | Will attempt to use this feature, and  all of its options             |           | Selecting this option Should take the user to a menu where they can input the desired information                           | As expected   | Pass   | N/A      |
-| Contact Search | Will attempt to use this feature to  locate information               |           | Selecting this option should Prompt the user for input Which once entered will return results with any matching information | As expected   | Pass   | N/A      |
-| Delete contact | Will attempt to use feature to remove a contact from the address book |           | Will remove a contact from the address Book                                                                                 | As expected   | Pass   | N/A      |
+<https://docs.google.com/spreadsheets/d/1Vr1SNUgwnf8XeHlUQcVGK4meK1jf1GFLNheXeIUnxU4/edit?usp=sharing>
 
 ## Version control
 
@@ -27,11 +51,13 @@ The first link is <https://github.com/Hexicans96/terminal_app>
 
 The second(current) link is <https://github.com/Hexicans96/T1A2---Terminal-Application>
 
-## Link to trello
+## Implemention plan
+
+### I used trello for my implementation plan, the link can be found below.
 
 <https://trello.com/b/2amoHbBa/terminal-app>
 
-## Lucidchart
+## Lucidchart / control flow diagram
 
 ![Lucid chart image](./docs/Terminal_app_mindmap.jpeg) <https://www.lucidchart.com/documents/edit/283b40f0-11cc-495a-af6c-51b957780e27/0_0?shared=true>
 
